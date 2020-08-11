@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "noLib": false,
+    "target": "es6",
+    "module": "commonjs",
+    "checkJs": true,
+    "paths": {
+      "src/*": [
+        "./src/*"
+      ],
+    },
+  },
+  "include": [
+    "./**/*",
+    "./*"
+  ]
+}
